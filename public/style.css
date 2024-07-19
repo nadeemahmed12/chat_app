@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+button {
+    margin: 5px 0;
+
+}
+
+#messages {
+    border: 2px solid #dc6ec6;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.message {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    max-width: fit-content;
+
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.sent {
+    align-self: flex-end;
+    background: #6a82fb;
+}
+
+.received {
+    align-self: flex-start;
+    background: #da085c;
+}
